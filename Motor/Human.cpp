@@ -33,4 +33,5 @@ void Human::update(vector<string>& levelData, vector<Human*>& humans, vector<Zom
 	if (collideWithLevel(levelData)) {
 		direction = glm::rotate(direction, randRotate(randomEngine));
 	}
+
 }
